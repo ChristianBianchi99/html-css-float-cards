@@ -36,7 +36,7 @@ p {
 /* BADGE */
 .badge {
     background-color: rgb(15, 14, 23);
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     box-shadow:  2px  2px 5px #dedede,
                 -2px -2px 5px #dedede,
                  2px -2px 5px #dedede,
