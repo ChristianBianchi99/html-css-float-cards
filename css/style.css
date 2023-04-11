@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: Poppins, sans-serif;
 }
 .container {
     width: 70%;
@@ -20,6 +20,51 @@ h1 {
 /* INIZIO STILI MAIN */
 p {
     text-align: center;
-    margin-top: 2.5rem;
+    margin: 2.5rem 1rem 2rem;
 }
+/* INIZIO STILI BADGE */
+/* LAYOUT */
+.row::after {
+    content:" ";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: calc(100% / 3);
+}
+/* BADGE */
+.badge {
+    background-color: rgb(15, 14, 23);
+    margin: 2rem 1rem;
+}
+.badge::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+/* IMMAGINE PROFILI */
+img {
+    height: 5rem;
+    float: left;
+    margin-right: 0.6rem;
+}
+/* INFORMAZIONI PROFILI */
+.info {
+    color: white;
+    vertical-align: middle;
+}
+h3 {
+    font-size: 15px;
+}
+.info div:nth-child(2), .info div:nth-child(3) {
+    font-size: 11px;
+}
+.info div:nth-child(3) {
+    color: rgb(0, 169, 244);
+}
+h3, .info div:nth-child(2), .info div:nth-child(3) {
+    padding-top: 0.4rem;
+}
+/* FINE STILI BADGE */
 /* FINE STILI MAIN */
