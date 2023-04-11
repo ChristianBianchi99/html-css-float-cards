@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+/* INIZIO STILI HEADER */
+h1 {
+    text-align: center;
+    color: rgb(230, 48, 111);
+    margin-top: 2rem;
+}
+/* FINE STILI HEADER */
+/* INIZIO STILI MAIN */
+p {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+/* FINE STILI MAIN */
